@@ -98,3 +98,5 @@ DEFAULT_POST_MODE = {
     'singel_post_mode' : True,
     'all_files_post_mode' : True
 }
+
+IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
