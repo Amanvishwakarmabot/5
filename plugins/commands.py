@@ -871,6 +871,6 @@ async def trendlist(client, message):
     await message.reply('<b>Do you want pin this message in users?</b>', reply_markup=ReplyKeyboardMarkup([['Yes', 'No']], one_time_keyboard=True, resize_keyboard=True))
 
 @Client.on_callback_query(filters.regex("topsearch"))
-async def topsearch_callback(client, callback_query):
+async def topsearch(client, message):
     await message.reply('<b>Do you want pin this message in users?</b>', reply_markup=ReplyKeyboardMarkup([['Yes', 'No']], one_time_keyboard=True, resize_keyboard=True))
    
